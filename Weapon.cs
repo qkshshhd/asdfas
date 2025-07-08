@@ -18,11 +18,11 @@ public class Weapon : MonoBehaviour
         transform.position += new Vector3(MoveSpeed * Time.deltaTime, 0, 0);
     }
 
-    public void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Enemy")
-        {
-            Destroy(gameObject);
-        }
-    }
+    //public void OnCollisionEnter2D(Collision2D other)
+    //{
+       // if (other.gameObject.tag == "Enemy")
+      //  {
+       //     Destroy(gameObject);
+      //  }
+   // }
 }
